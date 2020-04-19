@@ -23,11 +23,11 @@ Full Stack project to manage a fictional carrier.
 
 ## 🗄️ API
 
-  The web version is for the admnistrators, they are able to:
+  The web version is for the administrators, they are able to:
   * Add, Edit and Delete Deliveries.
   * Add, Edit and Delete Deliverymen.
-  * Add, Edit and Delete Recipients.   </br>
-  * See delivery problems.</br>
+  * Add, Edit and Delete Recipients.
+  * See delivery problems.
   
   The app is only for deliveryman, they can:
   * Login with his id and Logout
@@ -72,7 +72,6 @@ Database:
 
 
 ## 🕹️ Controllers
-You can see all the available routes in src/routes.js, here are some examples:
 
 - User Controller
   * Store -> Create admin users
@@ -154,38 +153,42 @@ You can see all the available routes in src/routes.js, here are some examples:
 ## Getting Started
 
 ## 📋 Requirements
+* [Node.js](https://nodejs.org/en/) >= 10.1
+* [Yarn](https://yarnpkg.com/) >= 1.21 or NPM (>= 6.9)
+* Project downloaded
+```
+ git  clone https://github.com/Wenderson-P/fastfeet.git
+```
+* Postgress and Redis database installed
 
-For development, you will only need Node.js and a package manager like yarn or npm, installed in your environement.
+## API Installation
 
-### Node
-- #### Node installation on Windows
+```
+Open the fastfeet folder in the terminal
+  -> cd api
+  -> npm install or yarn
+  -> Copy .env.example to .env and add your settings
+  -> npm dev or yarn dev (This will start the api)
+   -> yarn queue ( This will start the bee-queue responsible for sending email)
+ ```
+ 
+ **⚠️ Make sure to create a .env file ⚠️**
+ 
+ ## WEB Installation
 
-  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
-
-- #### Node installation on Ubuntu
-
-  You can install nodejs and npm easily with apt install, just run the following commands.
-
-      $ sudo apt install nodejs
-      $ sudo apt install npm
-
-- #### Other Operating Systems
-  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
-
-If the installation was successful, you should be able to run the following command.
-
-    $ node --version
-    v8.11.3
-
-    $ npm --version
-    6.1.0
-
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-
-    $ npm install npm -g
-
-### Yarn installation 
-  After installing node, this project will need yarn too, so just run the following command.
-
-      $ npm install -g yarn
+```
+Open the fastfeet folder in the terminal
+  -> cd web
+  -> npm install or yarn
+  -> npm dev or yarn dev
+ ```
+ 
+## Mobile Installation
+```
+Open the fastfeet folder in the terminal
+  -> cd mobile
+  -> npm install or yarn
+  -> react-native start
+  -> react-native run-android
+ ```
+ 
