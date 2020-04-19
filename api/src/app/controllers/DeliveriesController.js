@@ -134,7 +134,6 @@ class DeliveriesController {
       where: { deliveryman_id, start_date: { [Op.gte]: startOfTheWeek } },
     });
 
-    let retrievesMadeWeek = 0;
     let retrievesToday = 0;
 
     const start_date = new Date();
@@ -154,17 +153,7 @@ class DeliveriesController {
       if (isToday(checkin.createdAt)) {
         retrievesToday += 1;
       }
-      if (isAfter(checkin.createdAt, startOfTheWeek)) {
-        retrievesMadeWeek += 1;
-      }
     });
-
-    if (retrievesMadeWeek >= 5) {
-      return res.status(400).json({
-        error:
-          'The deliveryman has already done all the allowed retrieves of the week',
-      });
-    }
 
     if (retrievesToday >= 5) {
       return res.status(400).json({
