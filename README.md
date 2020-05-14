@@ -46,7 +46,7 @@ A email is sent when:
   * A delivery is canceled
 
 ## 💻 Web Preview
-⚠️**This layout is in progress**⚠️
+⚠️**This is a new layout in progress**⚠️
    <div display="inline">
        <img src="https://user-images.githubusercontent.com/52503774/81228592-b3230480-8fc4-11ea-9783-5ff89d2bb098.png" alt="Fastfeet" width="30%" margin="10px"/>
     <img src="https://user-images.githubusercontent.com/52503774/81228594-b3bb9b00-8fc4-11ea-9516-496e9dd5badd.png" alt="Fastfeet" width="30%"  margin="10px"/>
@@ -54,7 +54,7 @@ A email is sent when:
 </div>
 
 ## 📱 Mobile Preview
-⚠️**This layout is in progress**⚠️
+⚠️**This is a new layout in progress**⚠️
    <div display="inline">
        <img src="https://user-images.githubusercontent.com/52503774/81231919-588ca700-8fca-11ea-9314-87adba2b3234.png" alt="Fastfeet" width="30%" margin="10px"/>
     <img src="https://user-images.githubusercontent.com/52503774/81231922-59bdd400-8fca-11ea-9346-84326b76f34c.png" alt="Fastfeet" width="30%"  margin="10px"/>
